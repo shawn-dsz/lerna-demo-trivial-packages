@@ -38,4 +38,4 @@ jobs:
         run: yarn lerna run build
 
       - name: Release
-        run: yarn lerna run build
+        run: yarn lerna version from package
